@@ -31,7 +31,23 @@
 		<Compiler>
 			<Add option="-Wall" />
 		</Compiler>
-		<Unit filename="main.c">
+		<Unit filename="header/combate.h" />
+		<Unit filename="header/guardar.h" />
+		<Unit filename="header/historia.h" />
+		<Unit filename="header/personajes.h" />
+		<Unit filename="src/combate.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="src/guardar.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="src/historia.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="src/main.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="src/personajes.c">
 			<Option compilerVar="CC" />
 		</Unit>
 		<Extensions>
